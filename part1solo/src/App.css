@@ -1,0 +1,88 @@
+body{
+  height: 100%;
+  width: 100%;
+  background-color: #23252C;
+}
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 7em;
+}
+
+.header-img{
+  width: 250px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.main-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  color: white;
+}
+.main-container > .main-text{
+  width: 250px;
+  background-color: #1A1821;
+  text-align: center;
+}
+.name{
+  font-size: 25px;
+}
+.job{
+  font-size: 15px;
+  font-weight: lighter;
+  margin-top: -1em;
+  color: #F3BF99;
+}
+.page{
+  font-weight: normal;
+  font-size: 12px;
+  margin-top: -1em;
+}
+.main-container > .email{
+  width: 250px;
+  background-color: #1A1821;
+}
+
+.emailbtn{
+  width: 200px;
+  height: 35px;
+  border-radius: 5px;
+  margin-left: 25px;
+}
+.main-container > .about{
+  width: 250px;
+  background-color: #1A1821;
+}
+.about-head{
+  margin-left: 30px;
+}
+.about-text{
+  margin-left: 30px;
+  margin-top: -1em;
+  font-weight: lighter;
+  font-size: 13px;
+  max-width: 200px;
+}
+.main-container > .medialinks{
+  width: 250px;
+  background-color: #161619;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  height: 50px;
+}
+.list{
+  list-style: none;
+  display: inline-flex;
+  margin-left: 30px;
+  
+}
+.list > li > a > img{
+  margin-top: -0.6em;
+  width: 30px;
+  padding: 0.2em;
+
+}
